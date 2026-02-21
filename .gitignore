@@ -1,0 +1,16 @@
+# Browser profiles (contain login cookies/sessions)
+profiles/
+
+# Personal subscription data
+channels.txt
+channels_failed.txt
+
+# Playwright logs
+.playwright-mcp/
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
