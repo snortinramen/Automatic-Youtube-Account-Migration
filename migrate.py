@@ -769,8 +769,8 @@ def import_playlists(page):
             print(f"Skipping empty playlist: {playlist_name}")
             continue
 
-        # Reverse so oldest gets added first, preserving the original order
-        urls.reverse()
+        # Playlists are exported in display order (top to bottom), so import
+        # in the same order — no reversal needed unlike likes/watch later
 
         print(f"\n{'='*50}")
         print(f"Playlist: {playlist_name} ({len(urls)} videos)")
