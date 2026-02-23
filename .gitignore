@@ -1,9 +1,15 @@
 # Browser profiles (contain login cookies/sessions)
 profiles/
 
-# Personal subscription data
+# Personal migration data
 channels.txt
 channels_failed.txt
+likes.txt
+likes_failed.txt
+watch_later.txt
+watch_later_failed.txt
+playlists/
+playlists_failed/
 
 # Playwright logs
 .playwright-mcp/
